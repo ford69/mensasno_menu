@@ -1,7 +1,7 @@
 import { MenuCategory, Restaurant } from '../types/menu';
 
 export const restaurant: Restaurant = {
-  name: "Mensaano & the Shawarma Shark",
+  name: "Mensaano & The Shawarma Shark",
   description: "MEALS YOUR TASTE BUDS CAN'T RESIST🤤",
   address: "Anevon Crescent, Spintex Rd, Tema",
   phone: "059-148-3073 OR 055-778-0035",
