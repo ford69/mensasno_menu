@@ -61,19 +61,19 @@ export const QRCodeGenerator: React.FC<QRCodeGeneratorProps> = ({ url, restauran
   if (isLoading) {
     return (
       <div className="flex items-center justify-center p-8">
-        <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-amber-600"></div>
+        <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-orange-500"></div>
       </div>
     );
   }
 
   return (
-    <div className="bg-white rounded-lg shadow-lg p-8 text-center max-w-md mx-auto">
+    <div className="bg-gradient-to-br from-gray-800/80 to-gray-900/80 rounded-lg shadow-lg border border-gray-700/50 p-8 text-center max-w-md mx-auto backdrop-blur-sm">
       <div className="flex items-center justify-center gap-2 mb-4">
-        <QrCode className="w-6 h-6 text-amber-600" />
-        <h2 className="text-xl font-bold text-gray-900">Scan for Menu</h2>
+        <QrCode className="w-6 h-6 text-orange-500" />
+        <h2 className="text-xl font-bold text-white">Scan for Menu</h2>
       </div>
       
-      <div className="bg-gray-50 rounded-lg p-4 mb-6">
+      <div className="bg-white rounded-lg p-4 mb-6">
         <img 
           src={qrCodeDataUrl} 
           alt={`QR Code for ${restaurantName} menu`}
@@ -81,30 +81,30 @@ export const QRCodeGenerator: React.FC<QRCodeGeneratorProps> = ({ url, restauran
         />
       </div>
       
-      <p className="text-sm text-gray-600 mb-6">
+      <p className="text-sm text-gray-300 mb-6">
         Customers can scan this QR code with their phone camera to view your menu instantly
       </p>
       
       <div className="flex gap-3 justify-center">
         <button
           onClick={downloadQR}
-          className="flex items-center gap-2 px-4 py-2 bg-amber-600 text-white rounded-lg hover:bg-amber-700 transition-colors"
+          className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-orange-500 to-orange-600 text-white rounded-lg hover:from-orange-600 hover:to-orange-700 transition-all duration-300 shadow-lg shadow-orange-500/30"
         >
           <Download className="w-4 h-4" />
           Download
         </button>
         <button
           onClick={shareQR}
-          className="flex items-center gap-2 px-4 py-2 bg-gray-600 text-white rounded-lg hover:bg-gray-700 transition-colors"
+          className="flex items-center gap-2 px-4 py-2 bg-gray-700 text-white rounded-lg hover:bg-gray-600 transition-colors border border-gray-600"
         >
           <Share2 className="w-4 h-4" />
           Share
         </button>
       </div>
       
-      <div className="mt-4 pt-4 border-t border-gray-200">
-        <p className="text-xs text-gray-500">
-          Menu URL: <span className="font-mono break-all">{url}</span>
+      <div className="mt-4 pt-4 border-t border-gray-700/50">
+        <p className="text-xs text-gray-400">
+          Menu URL: <span className="font-mono break-all text-gray-300">{url}</span>
         </p>
       </div>
     </div>

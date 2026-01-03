@@ -45,7 +45,7 @@ function App() {
         <div className="fixed top-4 left-4 z-50">
           <button
             onClick={handleBackToAdmin}
-            className="bg-white shadow-lg rounded-full px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50 transition-colors border"
+            className="bg-gradient-to-r from-gray-800/90 to-gray-900/90 backdrop-blur-sm shadow-lg rounded-full px-4 py-2 text-sm font-medium text-white hover:from-gray-700 hover:to-gray-800 transition-all duration-300 border border-gray-700/50"
           >
             ← Admin
           </button>
