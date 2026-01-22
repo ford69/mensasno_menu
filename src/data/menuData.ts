@@ -985,5 +985,1366 @@ export const menuCategories: MenuCategory[] = [
         category: "extras"
       }
     ]
+  },
+  {
+    id: "sunday-locals",
+    name: "Sunday Locals",
+    items: [
+      {
+        id: "sunday-wele",
+        name: "Wele",
+        description: "Sunday Locals protein",
+        price: 10,
+        category: "sunday-locals"
+      },
+      {
+        id: "sunday-salted-beef",
+        name: "Salted Beef",
+        description: "Sunday Locals protein",
+        price: 25,
+        category: "sunday-locals"
+      },
+      {
+        id: "sunday-tilapia",
+        name: "Tilapia",
+        description: "Sunday Locals protein (GHC50-70)",
+        price: 60,
+        category: "sunday-locals"
+      },
+      {
+        id: "sunday-goat",
+        name: "Goat",
+        description: "Sunday Locals protein",
+        price: 50,
+        category: "sunday-locals"
+      },
+      {
+        id: "sunday-cow-meat",
+        name: "Cow Meat",
+        description: "Sunday Locals protein",
+        price: 50,
+        category: "sunday-locals"
+      },
+      {
+        id: "sunday-intestine",
+        name: "Intestine",
+        description: "Sunday Locals protein",
+        price: 35,
+        category: "sunday-locals"
+      },
+      {
+        id: "sunday-chicken-layer",
+        name: "Chicken (Layer)",
+        description: "Sunday Locals protein (GHC45-60)",
+        price: 52,
+        category: "sunday-locals"
+      },
+      {
+        id: "sunday-tuna",
+        name: "Tuna",
+        description: "Sunday Locals protein (GHC35-60)",
+        price: 47,
+        category: "sunday-locals"
+      },
+      {
+        id: "sunday-snail",
+        name: "Snail",
+        description: "Sunday Locals protein (GHC50-150)",
+        price: 100,
+        category: "sunday-locals"
+      },
+      {
+        id: "sunday-pig-feet",
+        name: "Pig Feet",
+        description: "Sunday Locals protein",
+        price: 35,
+        category: "sunday-locals"
+      },
+      {
+        id: "sunday-dry-fish",
+        name: "Dry Fish",
+        description: "Sunday Locals protein (GHC60-150)",
+        price: 105,
+        category: "sunday-locals"
+      },
+      {
+        id: "sunday-salmon",
+        name: "Salmon",
+        description: "Sunday Locals protein",
+        price: 35,
+        category: "sunday-locals"
+      },
+      {
+        id: "sunday-fufu",
+        name: "Fufu",
+        description: "Sunday Locals carb",
+        price: 20,
+        category: "sunday-locals"
+      },
+      {
+        id: "sunday-banku",
+        name: "Banku",
+        description: "Sunday Locals carb",
+        price: 5,
+        category: "sunday-locals"
+      },
+      {
+        id: "sunday-omotuo",
+        name: "Omotuo",
+        description: "Sunday Locals carb",
+        price: 5,
+        category: "sunday-locals"
+      },
+      {
+        id: "sunday-konkonte",
+        name: "Konkonte",
+        description: "Sunday Locals carb",
+        price: 5,
+        category: "sunday-locals"
+      }
+    ]
+  },
+  {
+    id: "carbs-in-pans",
+    name: "Carbs in Pans",
+    items: [
+      {
+        id: "plain-jollof-small-tray",
+        name: "Plain Jollof/Friedrice - Small Tray",
+        description: "5-7 heads",
+        price: 350,
+        category: "carbs-in-pans"
+      },
+      {
+        id: "plain-jollof-medium",
+        name: "Plain Jollof/Friedrice - Medium",
+        description: "7-12 heads",
+        price: 400,
+        category: "carbs-in-pans"
+      },
+      {
+        id: "plain-jollof-large-tray",
+        name: "Plain Jollof/Friedrice - Large Tray",
+        description: "10-15 heads",
+        price: 500,
+        category: "carbs-in-pans"
+      },
+      {
+        id: "plain-jollof-extra-large",
+        name: "Plain Jollof/Friedrice - Extra Large",
+        description: "15-25 heads",
+        price: 700,
+        category: "carbs-in-pans"
+      },
+      {
+        id: "assorted-jollof-small-tray",
+        name: "Assorted Jollof/Friedrice/Noodles - Small Tray",
+        description: "5-7 heads",
+        price: 450,
+        category: "carbs-in-pans"
+      },
+      {
+        id: "assorted-jollof-medium",
+        name: "Assorted Jollof/Friedrice/Noodles - Medium",
+        description: "7-12 heads",
+        price: 650,
+        category: "carbs-in-pans"
+      },
+      {
+        id: "assorted-jollof-large-tray",
+        name: "Assorted Jollof/Friedrice/Noodles - Large Tray",
+        description: "10-15 heads",
+        price: 850,
+        category: "carbs-in-pans"
+      },
+      {
+        id: "assorted-jollof-extra-large",
+        name: "Assorted Jollof/Friedrice/Noodles - Extra Large",
+        description: "15-25 heads",
+        price: 1350,
+        category: "carbs-in-pans"
+      }
+    ]
+  },
+  {
+    id: "seafood-meals",
+    name: "Seafood Meals",
+    items: [
+      {
+        id: "seafood-only-regular",
+        name: "Seafood Only - Regular Pack",
+        description: "Carb pack",
+        price: 330,
+        category: "seafood-meals"
+      },
+      {
+        id: "seafood-only-large",
+        name: "Seafood Only - Large Pack",
+        description: "Carb pack",
+        price: 420,
+        category: "seafood-meals"
+      },
+      {
+        id: "assorted-meat-seafood-regular",
+        name: "Assorted Meat & Seafood Jollof/Noodles/Fried Rice - Regular Pack",
+        description: "Carb pack",
+        price: 350,
+        category: "seafood-meals"
+      },
+      {
+        id: "assorted-meat-seafood-large",
+        name: "Assorted Meat & Seafood Jollof/Noodles/Fried Rice - Large Pack",
+        description: "Carb pack",
+        price: 450,
+        category: "seafood-meals"
+      },
+      {
+        id: "seafood-tray-small",
+        name: "Seafood Meals Carb Tray - Small",
+        description: "Seafood tray",
+        price: 680,
+        category: "seafood-meals"
+      },
+      {
+        id: "seafood-tray-medium",
+        name: "Seafood Meals Carb Tray - Medium",
+        description: "Seafood tray",
+        price: 880,
+        category: "seafood-meals"
+      },
+      {
+        id: "seafood-tray-large",
+        name: "Seafood Meals Carb Tray - Large",
+        description: "Seafood tray",
+        price: 1500,
+        category: "seafood-meals"
+      },
+      {
+        id: "seafood-tray-extra-large",
+        name: "Seafood Meals Carb Tray - Extra Large",
+        description: "Seafood tray",
+        price: 1800,
+        category: "seafood-meals"
+      },
+      {
+        id: "assorted-meat-seafood-tray-small",
+        name: "Assorted Meat and Seafood Tray - Small",
+        description: "Assorted tray",
+        price: 800,
+        category: "seafood-meals"
+      },
+      {
+        id: "assorted-meat-seafood-tray-medium",
+        name: "Assorted Meat and Seafood Tray - Medium",
+        description: "Assorted tray",
+        price: 1050,
+        category: "seafood-meals"
+      },
+      {
+        id: "assorted-meat-seafood-tray-large",
+        name: "Assorted Meat and Seafood Tray - Large",
+        description: "Assorted tray",
+        price: 1600,
+        category: "seafood-meals"
+      },
+      {
+        id: "assorted-meat-seafood-tray-extra-large",
+        name: "Assorted Meat and Seafood Tray - Extra Large",
+        description: "Assorted tray",
+        price: 2000,
+        category: "seafood-meals"
+      }
+    ]
+  },
+  {
+    id: "burger-family",
+    name: "The Shark's Burger Family",
+    items: [
+      {
+        id: "baby-shark-burger",
+        name: "Baby Shark",
+        description: "Huge Burger bun, 1 beef patty, cheese, 1 fried egg, Shark sauce spicy sauce, onion & lettuce",
+        price: 85,
+        category: "burger-family"
+      },
+      {
+        id: "sister-shark-burger",
+        name: "Sister Shark",
+        description: "Huge Burger bun, 2 beef patty, cheese, 1 fried egg, Shark sauce spicy sauce, onion & lettuce",
+        price: 95,
+        category: "burger-family"
+      },
+      {
+        id: "brother-shark-burger",
+        name: "Brother Shark",
+        description: "Huge Burger bun, 1 beef patty, bacon, 1 fried egg, Shark sauce, spicy sauce, onion & lettuce",
+        price: 95,
+        category: "burger-family"
+      },
+      {
+        id: "mummy-shark-burger",
+        name: "Mummy Shark",
+        description: "Huge Burger bun, 1 beef patty, cheese, bacon, 1 fried egg, Shark sauce, spicy sauce, onion & lettuce",
+        price: 110,
+        category: "burger-family"
+      },
+      {
+        id: "daddy-shark-burger",
+        name: "Daddy Shark",
+        description: "Huge Burger bun, 2 beef patty, cheese, bacon, 1 fried egg, Shark sauce spicy sauce, onion & lettuce",
+        price: 120,
+        category: "burger-family"
+      },
+      {
+        id: "grandma-shark-burger",
+        name: "Grandma Shark",
+        description: "Huge Burger bun, 2 beef patty, double cheese, bacon, sausage, 1 fried egg, Shark sauce, spicy sauce, onion & lettuce",
+        price: 135,
+        category: "burger-family"
+      },
+      {
+        id: "grandpa-shark-burger",
+        name: "Grandpa Shark",
+        description: "Huge Burger bun, 2 beef patty, double cheese, bacon, sausage, 2 fried eggs, Shark sauce, spicy sauce, onion & lettuce",
+        price: 145,
+        category: "burger-family"
+      }
+    ]
+  },
+  {
+    id: "burger-extras",
+    name: "Burger Extras",
+    items: [
+      {
+        id: "burger-fried-egg",
+        name: "Fried Egg (Burger)",
+        description: "Additional fried egg for burger",
+        price: 5,
+        category: "burger-extras"
+      },
+      {
+        id: "burger-cheese",
+        name: "Cheese (Burger)",
+        description: "Additional cheese for burger",
+        price: 10,
+        category: "burger-extras"
+      },
+      {
+        id: "burger-chicken-sausage",
+        name: "Chicken Sausage (Burger)",
+        description: "Additional chicken sausage for burger",
+        price: 5,
+        category: "burger-extras"
+      },
+      {
+        id: "burger-bacon",
+        name: "Bacon (Burger)",
+        description: "Additional bacon for burger",
+        price: 15,
+        category: "burger-extras"
+      },
+      {
+        id: "burger-hot-dog-pork",
+        name: "Hot Dog (Pork) (Burger)",
+        description: "Additional hot dog for burger",
+        price: 20,
+        category: "burger-extras"
+      }
+    ]
+  },
+  {
+    id: "drinks",
+    name: "Drinks",
+    items: [
+      {
+        id: "cocktail",
+        name: "Cocktail",
+        description: "Non-alcoholic cocktail",
+        price: 20,
+        category: "drinks"
+      },
+      {
+        id: "fanta-coke-sprite",
+        name: "Fanta/Coke/Sprite",
+        description: "Soft drink",
+        price: 10,
+        category: "drinks"
+      },
+      {
+        id: "malt",
+        name: "Malt",
+        description: "Non-alcoholic malt drink",
+        price: 20,
+        category: "drinks"
+      },
+      {
+        id: "iced-tea-large",
+        name: "Iced Tea (Large)",
+        description: "Large iced tea",
+        price: 45,
+        category: "drinks"
+      },
+      {
+        id: "iced-tea-small",
+        name: "Iced Tea (Small)",
+        description: "Small iced tea",
+        price: 25,
+        category: "drinks"
+      },
+      {
+        id: "alvaro",
+        name: "Alvaro",
+        description: "Non-alcoholic drink",
+        price: 15,
+        category: "drinks"
+      },
+      {
+        id: "sobolo",
+        name: "Sobolo",
+        description: "Hibiscus drink",
+        price: 30,
+        category: "drinks"
+      },
+      {
+        id: "mashed-kenkey-300ml",
+        name: "Mashed Kenkey (300ML)",
+        description: "Mashed kenkey drink",
+        price: 25,
+        category: "drinks"
+      },
+      {
+        id: "mashed-kenkey-500ml",
+        name: "Mashed Kenkey (500ML)",
+        description: "Mashed kenkey drink",
+        price: 40,
+        category: "drinks"
+      },
+      {
+        id: "water-small",
+        name: "Water (Small)",
+        description: "Small bottle of water",
+        price: 5,
+        category: "drinks"
+      },
+      {
+        id: "water-big",
+        name: "Water (Big)",
+        description: "Large bottle of water",
+        price: 10,
+        category: "drinks"
+      },
+      {
+        id: "fresh-juice-300ml",
+        name: "Fresh Juice (300ML)",
+        description: "Fresh fruit juice",
+        price: 30,
+        category: "drinks"
+      },
+      {
+        id: "fresh-juice-500ml",
+        name: "Fresh Juice (500ML)",
+        description: "Tropical, pine ginger, minty pine, orapine, pineapple",
+        price: 40,
+        category: "drinks"
+      },
+      {
+        id: "club-beer-small",
+        name: "Club Beer (Small)",
+        description: "Small bottle of Club beer",
+        price: 25,
+        category: "drinks"
+      },
+      {
+        id: "club-beer-big",
+        name: "Club Beer (Big)",
+        description: "Large bottle of Club beer",
+        price: 35,
+        category: "drinks"
+      },
+      {
+        id: "smirnoff",
+        name: "Smirnoff",
+        description: "Smirnoff drink",
+        price: 25,
+        category: "drinks"
+      },
+      {
+        id: "shandy-small",
+        name: "Shandy (Small)",
+        description: "Small shandy",
+        price: 25,
+        category: "drinks"
+      },
+      {
+        id: "shandy-big",
+        name: "Shandy (Big)",
+        description: "Large shandy",
+        price: 35,
+        category: "drinks"
+      },
+      {
+        id: "vody",
+        name: "Vody",
+        description: "Vodka drink",
+        price: 30,
+        category: "drinks"
+      },
+      {
+        id: "hunters",
+        name: "Hunters",
+        description: "Hunters drink",
+        price: 35,
+        category: "drinks"
+      },
+      {
+        id: "savanna",
+        name: "Savanna",
+        description: "Savanna cider",
+        price: 35,
+        category: "drinks"
+      },
+      {
+        id: "origin-small",
+        name: "Origin (Small)",
+        description: "Small Origin drink",
+        price: 25,
+        category: "drinks"
+      },
+      {
+        id: "origin-big",
+        name: "Origin (Big)",
+        description: "Large Origin drink",
+        price: 35,
+        category: "drinks"
+      },
+      {
+        id: "kiss",
+        name: "Kiss",
+        description: "Kiss drink",
+        price: 35,
+        category: "drinks"
+      },
+      {
+        id: "guinness",
+        name: "Guinness",
+        description: "Guinness stout",
+        price: 25,
+        category: "drinks"
+      },
+      {
+        id: "smirnoff-gurana",
+        name: "Smirnoff Gurana",
+        description: "Smirnoff Gurana",
+        price: 35,
+        category: "drinks"
+      },
+      {
+        id: "alcohol-packets",
+        name: "Alcohol Packets",
+        description: "Alcohol packets",
+        price: 15,
+        category: "drinks"
+      }
+    ]
+  },
+  {
+    id: "stews",
+    name: "Stews",
+    items: [
+      {
+        id: "assorted-meat-garden-eggs-5l",
+        name: "Assorted Meat Garden Eggs (5 Litres)",
+        description: "Beef/goat, wele, salmon/tuna",
+        price: 780,
+        category: "stews"
+      },
+      {
+        id: "assorted-meat-palava-5l",
+        name: "Assorted Meat Palava Sauce/Kontomire (5 Litres)",
+        description: "Palava sauce with kontomire",
+        price: 780,
+        category: "stews"
+      },
+      {
+        id: "assorted-meat-beans-5l",
+        name: "Assorted Meat Beans Stew (5 Litres)",
+        description: "Beans stew with assorted meat",
+        price: 780,
+        category: "stews"
+      },
+      {
+        id: "chicken-stew-5l",
+        name: "Chicken Stew (5 Litres)",
+        description: "Chicken stew",
+        price: 750,
+        category: "stews"
+      },
+      {
+        id: "turkey-stew-5l",
+        name: "Turkey Stew (5 Litres)",
+        description: "Turkey stew",
+        price: 780,
+        category: "stews"
+      },
+      {
+        id: "goat-stew-5l",
+        name: "Goat Stew (5 Litres)",
+        description: "Goat meat stew",
+        price: 780,
+        category: "stews"
+      },
+      {
+        id: "beef-stew-5l",
+        name: "Beef Stew (5 Litres)",
+        description: "Beef stew",
+        price: 750,
+        category: "stews"
+      },
+      {
+        id: "egg-corned-beef-stew-5l",
+        name: "Egg Stew & Corned Beef Stew (5 Litres)",
+        description: "Egg and corned beef stew",
+        price: 780,
+        category: "stews"
+      },
+      {
+        id: "cassava-red-fish-5l",
+        name: "Cassava/Red Fish in Tomato Sauce (5 Litres)",
+        description: "Cassava or red fish in tomato sauce",
+        price: 850,
+        category: "stews"
+      },
+      {
+        id: "assorted-meat-garden-eggs-3l",
+        name: "Assorted Meat Garden Eggs (3 Litres)",
+        description: "Beef/goat, wele, salmon/tuna",
+        price: 550,
+        category: "stews"
+      },
+      {
+        id: "assorted-meat-palava-3l",
+        name: "Assorted Meat Palava Sauce/Kontomire (3 Litres)",
+        description: "Palava sauce with kontomire",
+        price: 550,
+        category: "stews"
+      },
+      {
+        id: "assorted-meat-beans-3l",
+        name: "Assorted Meat Beans Stew (3 Litres)",
+        description: "Beans stew with assorted meat",
+        price: 550,
+        category: "stews"
+      },
+      {
+        id: "chicken-stew-3l",
+        name: "Chicken Stew (3 Litres)",
+        description: "Chicken stew",
+        price: 530,
+        category: "stews"
+      },
+      {
+        id: "turkey-stew-3l",
+        name: "Turkey Stew (3 Litres)",
+        description: "Turkey stew",
+        price: 550,
+        category: "stews"
+      },
+      {
+        id: "goat-stew-3l",
+        name: "Goat Stew (3 Litres)",
+        description: "Goat meat stew",
+        price: 550,
+        category: "stews"
+      },
+      {
+        id: "beef-stew-3l",
+        name: "Beef Stew (3 Litres)",
+        description: "Beef stew",
+        price: 530,
+        category: "stews"
+      },
+      {
+        id: "egg-corned-beef-stew-3l",
+        name: "Egg Stew & Corned Beef Stew (3 Litres)",
+        description: "Egg and corned beef stew",
+        price: 550,
+        category: "stews"
+      },
+      {
+        id: "cassava-red-fish-3l",
+        name: "Cassava/Red Fish in Tomato Sauce (3 Litres)",
+        description: "Cassava or red fish in tomato sauce",
+        price: 650,
+        category: "stews"
+      }
+    ]
+  },
+  {
+    id: "banku-okro",
+    name: "Banku & Okro Stew",
+    items: [
+      {
+        id: "banku-okro-option-1",
+        name: "Banku & Okro Stew (Option 1)",
+        description: "2 balls of banku | Crab | Wele | Salted beef | Cow/goat meat | Salmon",
+        price: 130,
+        category: "banku-okro"
+      },
+      {
+        id: "banku-okro-option-2",
+        name: "Banku & Okro Stew (Option 2)",
+        description: "2 balls of banku | Crab | Wele | Salted beef | Cow/Goat meat | Tilapia",
+        price: 180,
+        category: "banku-okro"
+      }
+    ]
+  },
+  {
+    id: "zongo-saturdays",
+    name: "Zongo Saturdays",
+    items: [
+      {
+        id: "waakye",
+        name: "Waakye",
+        description: "WAAKYE, FISH, WELE, EGG, MEAT, SAUSAGES, SALAD, SPAGHETTI, GARI, SHITO, STEW, PLANTAIN",
+        price: 120,
+        category: "zongo-saturdays"
+      },
+      {
+        id: "zongo-rice",
+        name: "Zongo Rice",
+        description: "RICE, FISH, WELE, EGG, MEAT, SAUSAGE, SALAD, SPAGHETTI, SHITO, STEW PLANTAIN",
+        price: 120,
+        category: "zongo-saturdays"
+      },
+      {
+        id: "tuo-zaafi",
+        name: "Tuo Zaafi",
+        description: "TWO BALLS OF TZ, STEW, GREEN SOUP INTESTINE, MEAT, WELE, FISH",
+        price: 120,
+        category: "zongo-saturdays"
+      },
+      {
+        id: "zongo-meat",
+        name: "Meat (Extra)",
+        description: "Additional meat for Zongo Saturdays",
+        price: 40,
+        category: "zongo-saturdays"
+      },
+      {
+        id: "zongo-fried-boiled-egg",
+        name: "Fried/Boiled Egg (Extra)",
+        description: "Additional egg for Zongo Saturdays",
+        price: 5,
+        category: "zongo-saturdays"
+      },
+      {
+        id: "zongo-sausage",
+        name: "Sausage (Extra)",
+        description: "Additional sausage for Zongo Saturdays",
+        price: 5,
+        category: "zongo-saturdays"
+      },
+      {
+        id: "zongo-intestine",
+        name: "Intestine (Extra)",
+        description: "Additional intestine for Zongo Saturdays",
+        price: 30,
+        category: "zongo-saturdays"
+      },
+      {
+        id: "zongo-tz",
+        name: "T.Z (Extra)",
+        description: "Additional Tuo Zaafi for Zongo Saturdays",
+        price: 5,
+        category: "zongo-saturdays"
+      },
+      {
+        id: "zongo-chicken",
+        name: "Chicken (Extra)",
+        description: "Additional chicken for Zongo Saturdays",
+        price: 30,
+        category: "zongo-saturdays"
+      },
+      {
+        id: "zongo-wele",
+        name: "Wele (Extra)",
+        description: "Additional wele for Zongo Saturdays",
+        price: 10,
+        category: "zongo-saturdays"
+      },
+      {
+        id: "zongo-fish",
+        name: "Fish (Extra)",
+        description: "Additional fish for Zongo Saturdays",
+        price: 30,
+        category: "zongo-saturdays"
+      },
+      {
+        id: "zongo-dry-salad",
+        name: "Dry Salad (Extra)",
+        description: "Additional dry salad for Zongo Saturdays",
+        price: 5,
+        category: "zongo-saturdays"
+      },
+      {
+        id: "zongo-gizzard",
+        name: "Gizzard (Extra)",
+        description: "Additional gizzard for Zongo Saturdays",
+        price: 15,
+        category: "zongo-saturdays"
+      },
+      {
+        id: "zongo-ghana-salad",
+        name: "Ghana Salad (Extra)",
+        description: "Additional Ghana salad for Zongo Saturdays",
+        price: 40,
+        category: "zongo-saturdays"
+      },
+      {
+        id: "zongo-fried-plantain",
+        name: "Fried Plantain (Extra)",
+        description: "Additional fried plantain for Zongo Saturdays",
+        price: 10,
+        category: "zongo-saturdays"
+      }
+    ]
+  },
+  {
+    id: "party-trays",
+    name: "Party Trays",
+    items: [
+      {
+        id: "fried-yam-tray",
+        name: "Fried Yam Tray",
+        description: "Feeds 5-10 people",
+        price: 200,
+        category: "party-trays"
+      },
+      {
+        id: "kelewele-tray",
+        name: "Kelewele Tray",
+        description: "Feeds 5-10 people",
+        price: 250,
+        category: "party-trays"
+      },
+      {
+        id: "fried-chicken-6pcs",
+        name: "Fried Chicken/Turkey (6 Pieces)",
+        description: "6 pieces of fried chicken or turkey",
+        price: 240,
+        category: "party-trays"
+      },
+      {
+        id: "fried-chicken-12pcs",
+        name: "Fried Chicken/Turkey (12 Pieces)",
+        description: "12 pieces of fried chicken or turkey",
+        price: 480,
+        category: "party-trays"
+      },
+      {
+        id: "fried-chicken-18pcs",
+        name: "Fried Chicken/Turkey (18 Pieces)",
+        description: "18 pieces of fried chicken or turkey",
+        price: 720,
+        category: "party-trays"
+      },
+      {
+        id: "fried-chicken-24pcs",
+        name: "Fried Chicken/Turkey (24 Pieces)",
+        description: "24 pieces of fried chicken or turkey",
+        price: 960,
+        category: "party-trays"
+      },
+      {
+        id: "fried-chicken-48pcs",
+        name: "Fried Chicken/Turkey (48 Pieces)",
+        description: "48 pieces of fried chicken or turkey",
+        price: 1920,
+        category: "party-trays"
+      },
+      {
+        id: "fish-tilapia",
+        name: "Tilapia (Fried/Grilled)",
+        description: "Fried or grilled tilapia",
+        price: 70,
+        category: "party-trays"
+      },
+      {
+        id: "fish-cassava",
+        name: "Cassava Fish",
+        description: "Cassava fish",
+        price: 85,
+        category: "party-trays"
+      },
+      {
+        id: "fish-salmon-mackerel",
+        name: "Salmon/Mackerel",
+        description: "Salmon or mackerel",
+        price: 70,
+        category: "party-trays"
+      },
+      {
+        id: "fish-red-fish",
+        name: "Red Fish",
+        description: "Red fish",
+        price: 85,
+        category: "party-trays"
+      },
+      {
+        id: "party-wings-5pcs",
+        name: "Chicken Wings (5 Pieces) - Party Tray",
+        description: "5 pieces of chicken wings (fried/grilled)",
+        price: 65,
+        category: "party-trays"
+      },
+      {
+        id: "party-wings-10pcs",
+        name: "Chicken Wings (10 Pieces) - Party Tray",
+        description: "10 pieces of chicken wings (fried/grilled)",
+        price: 110,
+        category: "party-trays"
+      },
+      {
+        id: "party-wings-15pcs",
+        name: "Chicken Wings (15 Pieces) - Party Tray",
+        description: "15 pieces of chicken wings (fried/grilled)",
+        price: 150,
+        category: "party-trays"
+      },
+      {
+        id: "party-wings-20pcs",
+        name: "Chicken Wings (20 Pieces) - Party Tray",
+        description: "20 pieces of chicken wings (fried/grilled)",
+        price: 185,
+        category: "party-trays"
+      },
+      {
+        id: "party-wings-40pcs",
+        name: "Chicken Wings (40 Pieces) - Party Tray",
+        description: "40 pieces of chicken wings (fried/grilled)",
+        price: 365,
+        category: "party-trays"
+      },
+      {
+        id: "kebab-beef",
+        name: "Beef Kebab",
+        description: "Beef kebab",
+        price: 20,
+        category: "party-trays"
+      },
+      {
+        id: "kebab-goat",
+        name: "Goat Kebab",
+        description: "Goat kebab",
+        price: 20,
+        category: "party-trays"
+      },
+      {
+        id: "kebab-pork",
+        name: "Pork Kebab",
+        description: "Pork kebab",
+        price: 20,
+        category: "party-trays"
+      },
+      {
+        id: "kebab-chicken",
+        name: "Chicken Kebab",
+        description: "Chicken kebab",
+        price: 20,
+        category: "party-trays"
+      },
+      {
+        id: "kebab-sausage",
+        name: "Sausage Kebab",
+        description: "Sausage kebab",
+        price: 20,
+        category: "party-trays"
+      },
+      {
+        id: "grilled-chicken-6pcs",
+        name: "Grilled Chicken/Turkey (6 Pieces)",
+        description: "6 pieces of grilled chicken or turkey",
+        price: 240,
+        category: "party-trays"
+      },
+      {
+        id: "grilled-chicken-12pcs",
+        name: "Grilled Chicken/Turkey (12 Pieces)",
+        description: "12 pieces of grilled chicken or turkey",
+        price: 480,
+        category: "party-trays"
+      },
+      {
+        id: "grilled-chicken-18pcs",
+        name: "Grilled Chicken/Turkey (18 Pieces)",
+        description: "18 pieces of grilled chicken or turkey",
+        price: 720,
+        category: "party-trays"
+      },
+      {
+        id: "grilled-chicken-24pcs",
+        name: "Grilled Chicken/Turkey (24 Pieces)",
+        description: "24 pieces of grilled chicken or turkey",
+        price: 960,
+        category: "party-trays"
+      },
+      {
+        id: "grilled-chicken-48pcs",
+        name: "Grilled Chicken/Turkey (48 Pieces)",
+        description: "48 pieces of grilled chicken or turkey",
+        price: 1920,
+        category: "party-trays"
+      },
+      {
+        id: "gizzard-tray",
+        name: "Gizzard Tray",
+        description: "Gizzard party tray",
+        price: 300,
+        category: "party-trays"
+      },
+      {
+        id: "sausage-tray",
+        name: "Sausage Tray",
+        description: "Sausage party tray",
+        price: 250,
+        category: "party-trays"
+      },
+      {
+        id: "peppered-snail",
+        name: "Peppered Snail",
+        description: "Peppered snail (GHC150-350)",
+        price: 250,
+        category: "party-trays",
+        isSpicy: true
+      },
+      {
+        id: "yam-balls",
+        name: "Yam Balls",
+        description: "Yam balls",
+        price: 15,
+        category: "party-trays"
+      },
+      {
+        id: "meat-balls",
+        name: "Meat Balls",
+        description: "Meat balls",
+        price: 20,
+        category: "party-trays"
+      },
+      {
+        id: "spring-rolls-party",
+        name: "Spring Rolls",
+        description: "Spring rolls",
+        price: 5,
+        category: "party-trays"
+      },
+      {
+        id: "samosa-party",
+        name: "Samosa",
+        description: "Samosa",
+        price: 5,
+        category: "party-trays"
+      }
+    ]
+  },
+  {
+    id: "soups",
+    name: "Soups",
+    items: [
+      {
+        id: "groundnut-soup-chicken-5l",
+        name: "Groundnut Soup - Local Chicken (5 Litres)",
+        description: "Groundnut soup with local chicken",
+        price: 800,
+        category: "soups"
+      },
+      {
+        id: "groundnut-soup-beef-5l",
+        name: "Groundnut Soup - Beef (5 Litres)",
+        description: "Groundnut soup with beef",
+        price: 750,
+        category: "soups"
+      },
+      {
+        id: "groundnut-soup-goat-5l",
+        name: "Groundnut Soup - Goat Meat (5 Litres)",
+        description: "Groundnut soup with goat meat",
+        price: 800,
+        category: "soups"
+      },
+      {
+        id: "groundnut-soup-dry-fish-5l",
+        name: "Groundnut Soup - Dry Fish (5 Litres)",
+        description: "Groundnut soup with dry fish",
+        price: 950,
+        category: "soups"
+      },
+      {
+        id: "groundnut-soup-assorted-5l",
+        name: "Groundnut Soup - Assorted (5 Litres)",
+        description: "Beef/goat, wele, salmon/tuna",
+        price: 950,
+        category: "soups"
+      },
+      {
+        id: "light-soup-chicken-5l",
+        name: "Light Soup - Local Chicken (5 Litres)",
+        description: "Light soup with local chicken",
+        price: 750,
+        category: "soups"
+      },
+      {
+        id: "light-soup-beef-5l",
+        name: "Light Soup - Beef (5 Litres)",
+        description: "Light soup with beef",
+        price: 680,
+        category: "soups"
+      },
+      {
+        id: "light-soup-goat-5l",
+        name: "Light Soup - Goat Meat (5 Litres)",
+        description: "Light soup with goat meat",
+        price: 750,
+        category: "soups"
+      },
+      {
+        id: "light-soup-dry-fish-5l",
+        name: "Light Soup - Dry Fish (5 Litres)",
+        description: "Light soup with dry fish",
+        price: 900,
+        category: "soups"
+      },
+      {
+        id: "light-soup-efie-nkwan-5l",
+        name: "Light Soup - Efie Nkwan (5 Litres)",
+        description: "Snail, pig feet, salted beef & salmon",
+        price: 950,
+        category: "soups"
+      },
+      {
+        id: "light-soup-assorted-5l",
+        name: "Light Soup - Assorted (5 Litres)",
+        description: "Beef/goat, wele, salmon/tuna",
+        price: 800,
+        category: "soups"
+      },
+      {
+        id: "palm-nut-soup-chicken-5l",
+        name: "Palm Nut Soup - Local Chicken (5 Litres)",
+        description: "Palm nut soup with local chicken",
+        price: 800,
+        category: "soups"
+      },
+      {
+        id: "palm-nut-soup-beef-5l",
+        name: "Palm Nut Soup - Beef (5 Litres)",
+        description: "Palm nut soup with beef",
+        price: 750,
+        category: "soups"
+      },
+      {
+        id: "palm-nut-soup-goat-5l",
+        name: "Palm Nut Soup - Goat Meat (5 Litres)",
+        description: "Palm nut soup with goat meat",
+        price: 800,
+        category: "soups"
+      },
+      {
+        id: "palm-nut-soup-dry-fish-5l",
+        name: "Palm Nut Soup - Dry Fish (5 Litres)",
+        description: "Palm nut soup with dry fish",
+        price: 950,
+        category: "soups"
+      },
+      {
+        id: "palm-nut-soup-assorted-5l",
+        name: "Palm Nut Soup - Assorted (5 Litres)",
+        description: "Beef/goat, wele, salmon/tuna",
+        price: 950,
+        category: "soups"
+      },
+      {
+        id: "okro-soup-assorted-5l",
+        name: "Assorted Meat Okro Soup (5 Litres)",
+        description: "Beef/goat, wele, salmon/tuna & crab & with 10 balls of banku (complimentary)",
+        price: 900,
+        category: "soups"
+      },
+      {
+        id: "ebun3bunu-5l",
+        name: "Ebun3bunu (5 Litres)",
+        description: "Snail, dry fish, crab, salted beef & salmon",
+        price: 900,
+        category: "soups"
+      },
+      {
+        id: "groundnut-soup-chicken-3l",
+        name: "Groundnut Soup - Local Chicken (3 Litres)",
+        description: "Groundnut soup with local chicken",
+        price: 600,
+        category: "soups"
+      },
+      {
+        id: "groundnut-soup-beef-3l",
+        name: "Groundnut Soup - Beef (3 Litres)",
+        description: "Groundnut soup with beef",
+        price: 550,
+        category: "soups"
+      },
+      {
+        id: "groundnut-soup-goat-3l",
+        name: "Groundnut Soup - Goat Meat (3 Litres)",
+        description: "Groundnut soup with goat meat",
+        price: 600,
+        category: "soups"
+      },
+      {
+        id: "groundnut-soup-dry-fish-3l",
+        name: "Groundnut Soup - Dry Fish (3 Litres)",
+        description: "Groundnut soup with dry fish",
+        price: 700,
+        category: "soups"
+      },
+      {
+        id: "groundnut-soup-assorted-3l",
+        name: "Groundnut Soup - Assorted (3 Litres)",
+        description: "Beef/goat, wele, salmon/tuna",
+        price: 700,
+        category: "soups"
+      },
+      {
+        id: "light-soup-chicken-3l",
+        name: "Light Soup - Local Chicken (3 Litres)",
+        description: "Light soup with local chicken",
+        price: 550,
+        category: "soups"
+      },
+      {
+        id: "light-soup-beef-3l",
+        name: "Light Soup - Beef (3 Litres)",
+        description: "Light soup with beef",
+        price: 500,
+        category: "soups"
+      },
+      {
+        id: "light-soup-goat-3l",
+        name: "Light Soup - Goat Meat (3 Litres)",
+        description: "Light soup with goat meat",
+        price: 550,
+        category: "soups"
+      },
+      {
+        id: "light-soup-dry-fish-3l",
+        name: "Light Soup - Dry Fish (3 Litres)",
+        description: "Light soup with dry fish",
+        price: 650,
+        category: "soups"
+      },
+      {
+        id: "light-soup-efie-nkwan-3l",
+        name: "Light Soup - Efie Nkwan (3 Litres)",
+        description: "Snail, pig feet, salted beef & salmon",
+        price: 650,
+        category: "soups"
+      },
+      {
+        id: "light-soup-assorted-3l",
+        name: "Light Soup - Assorted (3 Litres)",
+        description: "Beef/goat, wele, salmon/tuna",
+        price: 650,
+        category: "soups"
+      },
+      {
+        id: "palm-nut-soup-chicken-3l",
+        name: "Palm Nut Soup - Local Chicken (3 Litres)",
+        description: "Palm nut soup with local chicken",
+        price: 600,
+        category: "soups"
+      },
+      {
+        id: "palm-nut-soup-beef-3l",
+        name: "Palm Nut Soup - Beef (3 Litres)",
+        description: "Palm nut soup with beef",
+        price: 550,
+        category: "soups"
+      },
+      {
+        id: "palm-nut-soup-goat-3l",
+        name: "Palm Nut Soup - Goat Meat (3 Litres)",
+        description: "Palm nut soup with goat meat",
+        price: 600,
+        category: "soups"
+      },
+      {
+        id: "palm-nut-soup-dry-fish-3l",
+        name: "Palm Nut Soup - Dry Fish (3 Litres)",
+        description: "Palm nut soup with dry fish",
+        price: 700,
+        category: "soups"
+      },
+      {
+        id: "palm-nut-soup-assorted-3l",
+        name: "Palm Nut Soup - Assorted (3 Litres)",
+        description: "Beef/goat, wele, salmon/tuna",
+        price: 700,
+        category: "soups"
+      },
+      {
+        id: "okro-soup-assorted-3l",
+        name: "Assorted Meat Okro Soup (3 Litres)",
+        description: "Beef/goat, wele, salmon/tuna & crab & with 5 balls of banku (complimentary)",
+        price: 650,
+        category: "soups"
+      },
+      {
+        id: "ebun3bunu-3l",
+        name: "Ebun3bunu (3 Litres)",
+        description: "Snail, dry fish, crab, salted beef & salmon",
+        price: 650,
+        category: "soups"
+      }
+    ]
+  },
+  {
+    id: "treat-boxes",
+    name: "Treat Boxes",
+    items: [
+      {
+        id: "treat-box-1",
+        name: "Treat Box 1",
+        description: "Juice (Ceres/Fresh Juice), Baby Shark Burger/Shawarma, Assorted Friedrice/Jollof, Hot dog, Chicken wings (Hot & spicy/Sweet & chilli/Honey glazed), Samosa, Springrolls",
+        price: 400,
+        category: "treat-boxes"
+      },
+      {
+        id: "treat-box-2",
+        name: "Treat Box 2",
+        description: "Juice (Ceres/Fresh Juice), Baby Shark Burger, Shawarma (chicken/beef/mixed), Assorted Friedrice/Jollof, Assorted noodles, Chicken wings (Hot & spicy/Sweet & chilli/Honey glazed), Samosa, Springrolls",
+        price: 460,
+        category: "treat-boxes"
+      },
+      {
+        id: "treat-box-3",
+        name: "Treat Box 3",
+        description: "Juice (Ceres/Fresh Juice), Baby Shark Burger, Assorted Friedrice/Jollof, Assorted noodles, Hot dog, Chicken wings (Hot & spicy/Sweet & chilli/Honey glazed), Samosas, Springrolls, Shawarma (chicken/beef/mixed)",
+        price: 480,
+        category: "treat-boxes"
+      },
+      {
+        id: "treat-box-4",
+        name: "Treat Box 4",
+        description: "Juice (Ceres/Fresh Juice), Baby Shark Burger, Assorted Friedrice/Jollof, Hot dog, Chicken wings (Hot & spicy/Sweet & chilli/Honey glazed), Samosa, Springrolls, Cheesy loaded shawarma",
+        price: 520,
+        category: "treat-boxes"
+      },
+      {
+        id: "treat-box-5",
+        name: "Treat Box 5",
+        description: "Juice (Ceres/Fresh Juice), Baby Shark Burger, Assorted Friedrice/Jollof, Assorted noodles, Hot dog (Doggy 01), Chicken wings (Hot & spicy/Sweet & chilli/Honey glazed), Samosas, Spring-rolls, Fully loaded Shawarma (chicken/beef/mixed)",
+        price: 600,
+        category: "treat-boxes"
+      }
+    ]
   }
 ];
