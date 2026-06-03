@@ -12,7 +12,7 @@ export const RestaurantHeader: React.FC<RestaurantHeaderProps> = ({ restaurant }
       <div className="max-w-4xl mx-auto px-4 py-8 text-center">
         <div className="flex flex-col items-center mb-4">
           <img 
-            src="/images/mensaano-logo.JPG" 
+            src="/images/mensaano.jpg" 
             alt="Men SaaNo Papabi Logo" 
             className="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-orange-300 shadow-xl mb-4"
           />
