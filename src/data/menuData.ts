@@ -1707,21 +1707,21 @@ export const menuCategories: MenuCategory[] = [
         id: "waakye",
         name: "Waakye",
         description: "WAAKYE, FISH, WELE, EGG, MEAT, SAUSAGES, SALAD, SPAGHETTI, GARI, SHITO, STEW, PLANTAIN",
-        price: 120,
+        price: 150,
         category: "zongo-saturdays"
       },
       {
         id: "zongo-rice",
         name: "Zongo Rice",
         description: "RICE, FISH, WELE, EGG, MEAT, SAUSAGE, SALAD, SPAGHETTI, SHITO, STEW PLANTAIN",
-        price: 120,
+        price: 150,
         category: "zongo-saturdays"
       },
       {
         id: "tuo-zaafi",
         name: "Tuo Zaafi",
         description: "TWO BALLS OF TZ, STEW, GREEN SOUP INTESTINE, MEAT, WELE, FISH",
-        price: 120,
+        price: 150,
         category: "zongo-saturdays"
       },
       {
